@@ -1,2 +1,12 @@
 # Analyze-NYC-TLC-datasets
 Analyze New York City Taxi and Limousine Commission trips datasets
+
+Many modern-day datasets are huge and truly exemplify “big data”. For example, the Facebook social graph is petabytes large (over 1M GB); every day, Twitter users generate over 12 terabytes of messages; and the NASA Terra and Aqua satellites each produce over 300 GB of MODIS satellite imagery per day. These raw data are far too large to even fit on the hard drive of an average computer, let alone to process and analyze. Luckily, there are a variety of modern technologies that allow us to process and analyze such large datasets in a reasonable amount of time. For the bulk of this assignment, you will be working with a dataset of over 1 billion individual taxi trips from the New York City Taxi & Limousine Commission (TLC).
+
+In Q1, you will work with a subset of the TLC dataset to get warmed up with PySpark. Apache Spark is a framework for distributed computing, and PySpark is its Python API. You will use this tool to answer questions such as “what are the top 10 most common trips in the dataset”? You will be using your own machine for computation, using an environment defined by a Docker container.
+
+In Q2, you will perform further analysis on a different subset of the TLC dataset using Spark on DataBricks, a platform combining datasets, machine learning models, and cloud compute. This part of the assignment will be completed in the Scala programming language, a modern general-purpose language with a robust support 2 Version 0 for functional programming. The Spark distributed computing framework is in fact written using Scala.
+
+In Q3, you will use PySpark on AWS using Elastic MapReduce (EMR), and in Q4 you will use Spark on Google Cloud Platform, to analyze even larger samples from the TLC dataset.
+
+Finally, in Q5 you will use the Microsoft Azure ML Studio to implement a regression model to predict automobile prices using a sample dataset already included in the Azure workspace. A main goal of this assignment is to help students gain exposure to a variety of tools that will be useful in the future (e.g., future project, research, career). The reasoning behind intentionally including AWS, Azure and GCP (most courses use only one), because we want students to be able to try and compare these platforms as they evolve rapidly. This will help the students in the future should they need to select a cloud platform to use, they can make more informed decisions and be able to get started right away.
