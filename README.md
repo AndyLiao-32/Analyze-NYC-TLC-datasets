@@ -1,7 +1,5 @@
 # Analyze-NYC-TLC-datasets
-Analyze New York City Taxi and Limousine Commission trips datasets
-
-- This Project was completed while taking the CSE 6242 courses in Georgia Tech.
+Analyze New York City Taxi and Limousine Commission trips datasets - This Project was completed while taking the CSE 6242 courses in Georgia Tech.
 
 Many modern-day datasets are huge and truly exemplify “big data”. For example, the Facebook social graph is petabytes large (over 1M GB); every day, Twitter users generate over 12 terabytes of messages; and the NASA Terra and Aqua satellites each produce over 300 GB of MODIS satellite imagery per day. These raw data are far too large to even fit on the hard drive of an average computer, let alone to process and analyze. Luckily, there are a variety of modern technologies that allow us to process and analyze such large datasets in a reasonable amount of time. For this project, I worked with a dataset of over 1 billion individual taxi trips from the New York City Taxi & Limousine Commission (TLC).
 
